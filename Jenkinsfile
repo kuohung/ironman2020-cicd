@@ -6,8 +6,8 @@
 //# Licence: MIT
 //#####################################
 node{
-    def project = 'elite-epoch-275809'
-    def appName = 'ithome'
+    def project = 'liquid-alloy-277101'
+    def appName = 'uthome'
     def tag = "v_${env.BUILD_NUMBER}"
     def img = "gcr.io/${project}/${appName}-${env.BRANCH_NAME}"
     def imgWithTag = "${img}:${tag}"
